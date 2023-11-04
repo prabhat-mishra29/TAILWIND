@@ -1,0 +1,2 @@
+>1 rem =16px
+>mx-1 = margin left = 4px/0.25rem and margin right = 4px/0.25rem

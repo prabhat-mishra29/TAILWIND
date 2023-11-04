@@ -1,8 +1,8 @@
 {
-  "name": "tailwind_demo",
-  "version": "1.0.0",
-  "description": "Tailwind",
-  "main": "index.js",
+"name": "tailwind_demo",
+"version": "1.0.0",
+"description": "Tailwind",
+"main": "index.js",
   "scripts": {
     "start": "vite"
   },
