@@ -6,6 +6,9 @@ module.exports = {
       fontFamily:{
         mullish:["Mulish","sans-serif"],
     },
+    backgroundImage: {
+      'x-dark-bg': "url('./Images/x-dark-bg.svg')",
+    },
     colors:{
       deepBlue:"#02042a",
       lightBlue:"#2b84ea",
