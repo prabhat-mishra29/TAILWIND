@@ -11,45 +11,45 @@
 
     <!-- Navbar -->
     <nav class="bg-deepBlue">
-        <div class="relative flex items-center justify-between w-[1080px] mx-auto">
+        <div class="relative flex items-center justify-between w-10/12 max-w-[1080px] mx-auto">
             <!-- LOGO -->
-            <a href="#" class="cursor-pointer py-7 pr-7"><img src="./Images/razorpay-logo_white.svg" alt="" width="125px" height="30px"></a>
+            <a href="/" class="cursor-pointer py-7 pr-7"><img src="./Images/razorpay-logo_white.svg"  width="125px" height="30px"></a>
 
-            <ul class="flex gap-x-6">
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+            <ul class="flex space-x-6">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Payments</a>
                     <div class="absolute bottom-0 w-full h-1 group-hover:bg-lightBlue"></div>
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Banking+</a>
                     <div class="absolute bottom-0 w-full h-1 group-hover:bg-lightBlue"></div>
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Credit</a>
                     <div class="absolute bottom-0 w-full h-1 group-hover:bg-lightBlue"></div>
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Payroll</a>
                     <div class="absolute bottom-0 w-full h-1 group-hover:bg-lightBlue"></div>
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Resources</a>
                     <div class="absolute bottom-0 w-full h-1 group-hover:bg-lightBlue"></div>
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Support</a>
                     <div class="absolute bottom-0 w-full h-1 group-hover:bg-lightBlue"></div>
                 </li>
-                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Pricing</a>
                     <div class="absolute bottom-0 w-full h-1 group-hover:bg-lightBlue"></div>
                 </li>
             </ul>
 
             <div class="flex gap-x-6">
-                <img src="https://razorpay.com/build/browser/static/indian-flag.a7d181aa.svg" width="28px" height="20px">
+                <img src="https://razorpay.com/build/browser/static/indian-flag.a7d181aa.svg" width="28px" height="20px" class="hidden lg:block">
                 <button class="py-3 px-5 font-mullish text-white border-lightBlue border rounded-sm text-sm font-bold">Log in</button>
-                <button class="py-3 px-4 font-mullish bg-white text-lightBlue300 border rounded-sm text-sm font-bold transition-all duration-200 hover:text-lightBlue500 group">Sign up 
+                <button class="py-3 px-4 font-mullish bg-white text-lightBlue300 border rounded-sm text-sm font-bold transition-all duration-200 hover:text-lightBlue500 group hidden lg:flex">Sign up 
                 <span class="relative">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" focusable="false" class="h-4 w-4 inline-block ml-1.5"><path class="group-hover:fill-[#0b72e7]" fill="#4b94ed" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
                 </span></button>
@@ -59,7 +59,7 @@
 
     <!-- Hero section -->
     <section class="relative bg-deepBlue">
-        <div class="flex items-center justify-between w-11/12 max-w-[1080px] mx-auto">
+        <div class="flex lg:flex-row flex-col items-center justify-between w-10/12 max-w-[1080px] mx-auto">
             <!-- Left -->
             <div class="space-y-8">
                 <h1 class="text-white font-mullish font-bold text-[40px] leading-[1.2]">Power your finance, grow your business</h1>
@@ -79,9 +79,10 @@
     </section>
 
     <!-- feature section 1 -->
-    <section class="relative mt-[190px] overflow-hidden" >
+    <section class="relative mt-[190px]" >
         <div class="relative w-11/12 max-w-[1080px] mx-auto">
-            <h2 class="font-mullish font-extrabold text-center leading-[1.2] text-2xl">Accept Payments with Razorpay Payment Suite</h2>
+            <h2 class="font-mullish font-extrabold text-center leading-[1.2] text-2xl hidden md:block">Accept Payments with Razorpay Payment Suite</h2>
+            <h2 class="font-mullish font-extrabold text-center leading-[1.2] text-4xl visible md:hidden">Explore Razorpay Payment Suite</h2>
             <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-16"></div>
             <!-- content -->
             <div class="w-full min-h-[520px] bg-white flex rounded-md relative px-10 py-12 border">
@@ -115,11 +116,11 @@
                         </li>
                     </ul>
                     <!-- for button & hyperlink-->
-                    <div class="flex flex-row items-center space-x-4">
-                        <button class="py-3 px-6 font-mullish bg-lightBlue text-white rounded-md font-bold transition-all duration-200 hover:bg-lightBlue500">Sign Up Now
+                    <div class="flex flex-col-reverse md:flex-row items-center md:space-x-4">
+                        <button class="py-3 px-6 w-full md:w-fit font-mullish bg-lightBlue text-white rounded-md font-bold transition-all duration-200 hover:bg-lightBlue500">Sign Up Now
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" focusable="false" class="h-4 w-4 inline-block ml-1.5"><path fill="#ffff" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg></button>
 
-                        <div class="flex flex-row items-center cursor-pointer group">
+                        <div class="flex self-start md:self-center cursor-pointer group ">
                             <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200">Know More
                             </a>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" focusable="false" class="h-5"><path class="group-hover:fill-[#344a6c] transition-all duration-200" fill="#0b72e7" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
@@ -127,10 +128,10 @@
                     </div>
                 </div>
                 <!-- right -->
-                <img src="https://razorpay.com/build/browser/static/payment-suite.c8ef898b.png" class="max-w-[600px] absolute right-0 bottom-0">
+                <img src="https://razorpay.com/build/browser/static/payment-suite.c8ef898b.png" class="absolute right-0 bottom-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block">
             </div>
 
-            <div class="w-full mx-auto grid grid-cols-3 gap-4 mt-14">
+            <div class="w-full mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-14">
                 <!-- card section -->
                 <!-- box-1 -->
                 <div class="w-full min-h-[15rem] relative cursor-pointer group">
@@ -357,8 +358,8 @@
                             </li>
                         </ul>
                         <!-- for button & hyperlink-->
-                        <div class="flex flex-row items-center space-x-4">
-                            <button class="relative bg-lightBlue flex items-center justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
+                        <div class="flex flex-col-reverse md:flex-row items-center md:space-x-4">
+                            <button class="relative w-full md:w-fit bg-lightBlue flex items-center place-content-center md:justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
                                 Sign up
                                 <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] flex justify-center items-center">
                                     <!-- arrow -->
@@ -366,7 +367,7 @@
                                 </div>
                             </button>
     
-                            <div class="flex flex-row items-center cursor-pointer group">
+                            <div class="flex flex-row self-start md:self-center cursor-pointer group">
                                 <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-lightBlue300 transition-all duration-200">Know More
                                 </a>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" focusable="false" class="h-5"><path class="group-hover:fill-[#4b94ed] transition-all duration-200" fill="#0b72e7" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
@@ -375,11 +376,11 @@
                     </div>
 
                     <!-- right -->
-                    <img src="https://razorpay.com/build/browser/static/x-graphic.b40f463e.png" class="max-w-[600px] absolute right-0 bottom-0">
+                    <img src="https://razorpay.com/build/browser/static/x-graphic.b40f463e.png" class="absolute right-0 bottom-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block">
                 </div>
 
                 <!-- card section -->
-                <div class="w-full mx-auto grid grid-cols-3 gap-3 mt-14">
+                <div class="w-full mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-14">
                     <!-- box-1 -->
                     <div class="w-full min-h-[15rem] relative cursor-pointer group">
                         <!-- back-ground image -->
@@ -476,7 +477,7 @@
                 </div>
 
                 <!-- demo-box -->
-                <div class="w-full flex flex-row items-center justify-evenly border border-slate-700 mg-24 relative rounded-md mt-14 p-8 gap-y-6">
+                <div class="w-full hidden md:flex md:flex-col lg:flex lg:flex-row items-center justify-evenly border border-slate-700 mg-24 relative rounded-md md:my-14 p-8 gap-y-6">
                     <p class="font-mullish text-white text-xl">Check out the live demo to learn how RazorpayX works.
                         <span class="font-bold">No sign-up required!</span>
                     </p>
